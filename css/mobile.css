@@ -1,0 +1,82 @@
+
+body{
+    background: linear-gradient(#BBD2C5, #536976);
+}
+
+@media screen and (max-width: 320px){
+    #topHeader{
+        background: #778e81;
+    }
+    a:link{
+        text-decoration: none;
+        color: white;
+    }
+    a:visited{
+        color: white;
+    }
+    #title{
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    h1{
+        font-size: 200%;
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+        font-size: 100%;
+    }
+    #cats{
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    h3{
+        text-align: center;
+        color: black;
+    }
+    #searchBC{
+        text-align: center;
+        flex-direction: row;
+        align-items: center;
+        padding-bottom: 15px;
+        /*justify-content: center;*/
+    }
+    #searchBox{
+        border-top-style: none;
+        border-left-style: none;
+        border-right-style: none;
+        border-bottom-style: solid;
+        height: 20px;
+    }
+    #searchB{
+        background: url("/images/icons/mglass.png") no-repeat;
+        border: none;
+        display: inline-block;
+    }
+    #introContainer{
+        background-color: white;
+        margin-top: 20px;
+    }
+    #siteIntroduction{
+        padding: 10px 5px;
+        text-align: center;
+        color: black;
+    }
+    .categories{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 20px;
+        background-color: white;
+    }
+    .catImages{
+        width: 100%;
+        height: 100%;
+    }
+    #sText{
+        padding-top: 10px;
+    }
+    p{
+        text-align: center;
+    }
+}
